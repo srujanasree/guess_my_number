@@ -36,8 +36,6 @@ else if(guessedNumber != number){
         document.querySelector('.message').textContent = 'You Lost The Game';
         document.querySelector('.score').textContent = 0;
         document.querySelector('body').style.backgroundColor='#a91919';
-        console.log("hello world");
-
     }
 }
 });
